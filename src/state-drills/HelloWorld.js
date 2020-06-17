@@ -24,7 +24,8 @@ class HelloWorld extends React.Component {
           Friend
         </button>
 
-        <button onClick={() => this.setState({ who: 'React' })}>
+        <button 
+        onClick={() => this.setState({ who: 'React' })}>
           React
         </button>
 
